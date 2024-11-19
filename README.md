@@ -160,4 +160,4 @@ Performance benchmarks against standard trading strategies:
 
 ---
 
-Built with ❤️ by [Your Organization]
+Built with ❤️ by [Swarms](https://swarms.ai)
