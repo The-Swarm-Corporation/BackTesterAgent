@@ -23,17 +23,9 @@ import yfinance as yf
 from swarms import Agent
 from swarm_models import OpenAIChat
 from dotenv import load_dotenv
-from loguru import logger
+from swarms.utils.loguru_logger import initialize_logger
 
-# Configure logging
-logger.add(
-    "backtester_{time}.log",
-    rotation="500 MB",
-    retention="10 days",
-    level="INFO",
-    format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}",
-)
-
+logger = initialize_logger("backtester-agent")
 
 # Type definitions
 class TradeAction(TypedDict):
