@@ -49,29 +49,9 @@ pip install -r requirements.txt
 ## 🚀 Quick Start
 
 ```python
-from backtesteragent import BackTester, FinancialAgent, Portfolio
-from dotenv import load_dotenv
-import os
+from backtester_agent.main import run_backtest
 
-# Load environment variables
-load_dotenv()
-
-# Initialize components
-agent = FinancialAgent(api_key=os.getenv("OPENAI_API_KEY"))
-portfolio = Portfolio(initial_cash=100000.0)
-backtester = BackTester(agent, portfolio)
-
-# Run backtest
-results = backtester.run_backtest(
-    symbol="AAPL",
-    start_date="2023-01-01",
-    end_date="2023-12-31"
-)
-
-# Analyze results
-metrics = portfolio.get_metrics()
-print(f"Total Return: {metrics['total_return']:.2f}%")
-print(f"Sharpe Ratio: {metrics['sharpe_ratio']:.2f}")
+run_backtest(cash=500.0, symbol="AAPL", start_date="2024-11-16", end_date="2024-11-18", trade_size=10)
 ```
 
 ## 📊 Example Output
