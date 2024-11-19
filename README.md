@@ -1,6 +1,7 @@
 
 
 # BackTesterAgent 🚀
+
 [![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
 
 
@@ -26,25 +27,14 @@ An enterprise-grade AI-powered backtesting framework built on the Swarms framewo
 ## 🛠️ Installation
 
 ```bash
-# Install using pip
-pip install -U swarms
-pip install -U backtesteragent
-
-# Or install from source
-git clone https://github.com/yourusername/backtesteragent.git
-cd backtesteragent
-pip install -e .
+pip3 install -U backtester_agent
 ```
 
 ## 📋 Requirements
 
 - Python 3.8+
-- Swarms Framework
-- Dependencies listed in requirements.txt
-
-```bash
-pip install -r requirements.txt
-```
+- backtester package: `pip3 install -U backtester_agent`
+- API Key for OpenAI
 
 ## 🚀 Quick Start
 
