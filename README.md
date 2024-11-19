@@ -27,13 +27,13 @@ An enterprise-grade AI-powered backtesting framework built on the Swarms framewo
 ## 🛠️ Installation
 
 ```bash
-pip3 install -U backtester_agent
+pip3 install -U backtester-agent
 ```
 
 ## 📋 Requirements
 
 - Python 3.8+
-- backtester package: `pip3 install -U backtester_agent`
+- backtester package: `pip3 install -U backtester-agent`
 - API Key for OpenAI
 
 ## 🚀 Quick Start

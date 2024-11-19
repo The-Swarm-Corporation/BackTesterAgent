@@ -1,3 +1,7 @@
-torch
-zetascale
 swarms
+swarm-models
+loguru
+yfinance
+python-dotenv
+pandas
+numpy
