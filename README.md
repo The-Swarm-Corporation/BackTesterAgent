@@ -66,9 +66,8 @@ Configure the agent through environment variables or a config file:
 
 ```env
 OPENAI_API_KEY=your_api_key_here
-LOG_LEVEL=INFO
-TRADE_SIZE=100
-COMMISSION_RATE=1.0
+WORKSPACE_DIR="agent_workspace"
+SWARMS_API_KEY=your_swarms_api_key_here # Get from swarms.ai dashboard
 ```
 
 ## 🏗️ Architecture
